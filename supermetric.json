@@ -1,0 +1,12 @@
+{"464d3569-c26c-4e6a-940b-616088ed76b3": {
+   "resourceKinds": [{
+      "resourceKindKey": "HostSystem",
+      "adapterKindKey": "VMWARE"
+   }],
+   "modificationTime": 1662541874030,
+   "name": "CoresPerSocket",
+   "formula": "${this, metric=hardware|cpuInfo|numCpuCores}/${this, metric=hardware|cpuInfo|numCpuPackages}",
+   "description": "",
+   "unitId": "none",
+   "modifiedBy": "ecd92cea-a19e-4d13-8615-35d2c26b391b"
+}}
